@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="loading">
+      <div class="loading-spinner"></div>
+    </div>
+    <header class="dark">
+      <nav class="sidebar close">
+        <head>
+          <div class="img_text">
+            <span class="image">
+              <img src="./images/Logo Main.png" alt="Logo" />
+            </span>
+            <div class="text header_text">
+              <span>Dashboard</span>
+            </div>
+          </div>
+          <i class="bx bx-chevron-left toggle menu_top"></i>
+        </head>
+        <div class="menu_bar">
+          <div class="menu">
+            <li class="search_box">
+              <i class="bx bx-search icon"></i>
+              <input type="search" placeholder="Search ..." />
+            </li>
+            <ul class="menu_links">
+              <li class="nav_link">
+                <a href="./index.html">
+                  <i class="bx bxs-pie-chart-alt-2 icon"></i>
+                  <span class="text nav_text">Overview</span>
+                </a>
+              </li>
+              <li class="nav_link">
+                <a href="./about.html">
+                  <i class="bx bx-credit-card-front icon"></i>
+                  <span class="text nav_text">Tickets</span>
+                </a>
+              </li>
+              <li class="nav_link">
+                <a href="#">
+                  <i class="bx bxs-hourglass-top icon"></i>
+                  <span class="text nav_text">Ideas</span>
+                </a>
+              </li>
+              <li class="nav_link">
+                <a href="#">
+                  <i class="bx bxs-group icon"></i>
+                  <span class="text nav_text">Contacts</span>
+                </a>
+              </li>
+              <li class="nav_link">
+                <a href="#">
+                  <i class="bx bxs-user icon"></i>
+                  <span class="text nav_text">Agents</span>
+                </a>
+              </li>
+              <li class="nav_link">
+                <a href="#">
+                  <i class="bx bxs-notepad icon"></i>
+                  <span class="text nav_text">Articles</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="botton_content">
+            <li class="mode">
+              <div class="moon_sun">
+                <i class="bx bxs-moon icon moon"></i>
+                <i class="bx bx-sun icon sun"></i>
+              </div>
+              <span class="text _text">Mode</span>
+
+              <div class="toggle_switch">
+                <span class="switch"></span>
+              </div>
+            </li>
+            <li class="nav_link">
+              <a href="#">
+                <i class="bx bx-log-out icon"></i>
+                <span class="text nav_text">Logout</span>
+              </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+      <section class="main">
+        <div class="section_top">
+          <p>Jones Ferdinand</p>
+          <img src="./images/m header.png" alt="Pic" />
+        </div>
+        <section class="section_button">
+          <p>Tickets</p>
+          <img src="./images/Dots.png" alt="dots" />
+          <div class="add_button">ADD</div>
+        </section>
+        <div class="table_section">
+          <table>
+<caption>All tickets</caption>
+            <thead>
+              <tr>
+              <th>Ticket details</th>
+              <th>Customer name</th>
+              <th>Date</th>
+              <th>Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="./images/man 1.png" alt="Savannah">
+              <div class="texts">
+                <!-- 1 -->
+                <p> Contact Email not Linked</p> 
+              <p>Updated 1 day ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Tom Cruise</p> 
+              <p>on 24.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 26, 2019</p> 
+              <p>6:30 PM</p>
+              </div></td>
+              <td class="triple_dots"><button class="red">HIGH </button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/w 5.png" alt="Savannah">
+              <div class="texts">
+                <!-- 2 -->
+                <p>Adding Images to Featured Posts</p> 
+              <p>Updated 1 day ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Matt Damon</p> 
+              <p>on 24.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 26, 2019</p> 
+              <p>8:00 AM</p>
+              </div></td>
+              <td class="triple_dots"><button class="yellow">LOW </button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/w 3.png" alt="Savannah">
+              <div class="texts">
+                <!-- 3 -->
+                <p> When will I be charged this month?</p> 
+              <p>Updated 1 day ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Robert Downey</p> 
+              <p>on 24.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 26, 2019</p> 
+              <p>7:30 PM</p>
+              </div></td>
+              <td class="triple_dots"><button class="red">HIGH </button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/man4.png" alt="Savannah">
+              <div class="texts">
+                <!-- 4 -->
+                <p>Payment not going through</p> 
+              <p>Updated 2 days ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Christian Bale</p> 
+              <p>on 24.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 25, 2019</p> 
+              <p>5:00 PM</p>
+              </div></td>
+              <td class="triple_dot"><button class="green">NORMAL</button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/m 5.png" alt="Savannah">
+              <div class="texts">
+                <!-- 5 -->
+                <p> Unable to add replies</p> 
+              <p>Updated 2 days ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Henry Cavil</p> 
+              <p>on 24.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 25, 2019</p> 
+              <p>4:00 PM</p>
+              </div></td>
+              <td class="triple_dots"><button class="red">HIGH </button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/m 7.png" alt="Savannah">
+              <div class="texts">
+                <!-- 6 -->
+                <p>Downtime since last week</p> 
+              <p>Updated 3 days ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Chris Evans</p> 
+              <p>on 23.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 26, 2019</p> 
+              <p>2:00 PM</p>
+              </div></td>
+              <td class="triple_dot"><button class="green">NORMAL</button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/w 6.png" alt="Savannah">
+              <div class="texts">
+                <!-- 7 -->
+                <p>Referral Bonus</p> 
+              <p>Updated 4 days ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Sam Smith</p> 
+              <p>on 22.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 26, 2019</p> 
+              <p>11:30 AM</p>
+              </div></td>
+              <td class="triple_dots"><button class="yellow">LOW</button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+            <tr>
+              <td><img src="./images/w 7.png" alt="Savannah">
+              <div class="texts">
+                <!-- 8 -->
+                <p>How do I change my password?</p> 
+              <p>Updated 6 days ago</p>
+              </div>
+              </td>
+              <td> <div class="texts">
+                <p>Steve Rogers</p> 
+              <p>on 21.05.2019</p>
+              </div></td>
+              <td> <div class="texts">
+                <p>May 24, 2019</p> 
+              <p>1:00 PM</p>
+              </div></td>
+              <td class="triple_dot"><button class="green">NORMAL</button><p><i class='bx bx-dots-vertical-rounded'></i></p></td>
+            </tr>
+          </tbody>
+        </div>
+      </table>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+
+    <!-- <script src="./js/style.js"></script> -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
